@@ -198,12 +198,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Open source community for the amazing tools and libraries
 - Data providers for making SDG data accessible
 
-## 📞 Contact
-
-- **Project Maintainer**: [Your Name](mailto:your.email@example.com)
-- **Website**: [https://your-sdgs-website.com](https://your-sdgs-website.com)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-
 ## 🗺️ Roadmap
 
 - [ ] Multi-language support expansion
