@@ -1,217 +1,202 @@
-# SDGs Website
+# SDG 2: Zero Hunger 🌾
 
-A modern, responsive website dedicated to promoting and tracking the United Nations Sustainable Development Goals (SDGs). This project aims to raise awareness, provide educational resources, and showcase progress toward achieving the 17 SDGs by 2030.
+## Overview
 
-## 🌍 About the Project
+**Sustainable Development Goal 2** aims to **end hunger, achieve food security and improved nutrition, and promote sustainable agriculture** by 2030. This goal addresses one of humanity's most fundamental challenges - ensuring that everyone has access to sufficient, safe, and nutritious food.
 
-The Sustainable Development Goals (SDGs) are a universal call to action to end poverty, protect the planet, and ensure that all people enjoy peace and prosperity by 2030. This website serves as a comprehensive platform to:
+## 🎯 Key Targets
 
-- Educate visitors about all 17 SDGs
-- Track global and local progress
-- Provide actionable resources for individuals and organizations
-- Showcase success stories and case studies
-- Connect like-minded individuals and organizations
+### Target 2.1: End Hunger
+- End hunger and ensure access by all people to safe, nutritious and sufficient food year-round
+- Pay special attention to the poor and people in vulnerable situations, including infants
 
-## ✨ Features
+### Target 2.2: End Malnutrition
+- End all forms of malnutrition by 2030
+- Achieve internationally agreed targets on stunting and wasting in children under 5 years
+- Address nutritional needs of adolescent girls, pregnant and lactating women, and older persons
 
-- **Interactive SDG Explorer**: Browse all 17 goals with detailed information
-- **Progress Tracking**: Real-time data visualization of global SDG progress
-- **Resource Library**: Educational materials, reports, and toolkits
-- **Action Hub**: Ways for individuals and organizations to get involved
-- **Success Stories**: Inspiring case studies from around the world
-- **News & Updates**: Latest developments in sustainable development
-- **Multi-language Support**: Available in multiple languages
-- **Responsive Design**: Optimized for all devices
+### Target 2.3: Double Agricultural Productivity
+- Double agricultural productivity and incomes of small-scale food producers
+- Focus on women, indigenous peoples, family farmers, pastoralists and fishers
+- Ensure secure and equal access to land, productive resources and inputs
 
-## 🛠️ Tech Stack
+### Target 2.4: Sustainable Food Production
+- Ensure sustainable food production systems
+- Implement resilient agricultural practices
+- Increase productivity and production
+- Help maintain ecosystems and adapt to climate change
 
-- **Frontend**: Next.js 14 with App Router
-- **Styling**: Tailwind CSS + shadcn/ui components
-- **Database**: [Your database choice - e.g., Supabase, Neon]
-- **Authentication**: [Your auth solution - e.g., NextAuth, Supabase Auth]
-- **Deployment**: Vercel
-- **Analytics**: [Your analytics solution]
+### Target 2.5: Maintain Genetic Diversity
+- Maintain genetic diversity of seeds, cultivated plants, and farmed animals
+- Promote access to and fair sharing of benefits from genetic resources
+- Support traditional knowledge and practices
 
-## 🚀 Getting Started
+## 📊 Current Global Status
 
-### Prerequisites
+### The Challenge
+- **828 million people** faced hunger in 2021
+- **2.3 billion people** were moderately or severely food insecure
+- **149.2 million children** under 5 were stunted due to chronic malnutrition
+- **45.4 million children** under 5 suffered from wasting
 
-- Node.js 18+ 
-- npm or yarn
-- Git
+### Progress Made
+- Global hunger decreased from 2005-2014
+- Agricultural productivity has increased in many regions
+- Investment in rural development has grown
+- Awareness of nutrition importance has increased
 
-### Installation
+### Setbacks
+- COVID-19 pandemic reversed progress
+- Climate change affects crop yields
+- Conflicts disrupt food systems
+- Economic instability increases food insecurity
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/sdgs-website.git
-cd sdgs-website
-```
+## 🌱 Key Solutions & Initiatives
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
+### 1. Sustainable Agriculture
+- **Climate-smart farming** techniques
+- **Precision agriculture** using technology
+- **Organic farming** practices
+- **Crop rotation** and soil health management
 
-3. Set up environment variables:
-```bash
-cp .env.example .env.local
-```
+### 2. Food System Transformation
+- **Reduce food waste** (currently 1/3 of food is wasted)
+- **Improve supply chains** and storage
+- **Support local food systems**
+- **Promote plant-based diets**
 
-4. Configure your environment variables in `.env.local`:
-```env
-# Database
-DATABASE_URL=your_database_url
+### 3. Social Protection
+- **School feeding programs**
+- **Cash transfer programs**
+- **Food assistance** for vulnerable populations
+- **Nutrition education** initiatives
 
-# Authentication
-NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=http://localhost:3000
+### 4. Technology & Innovation
+- **Drought-resistant crops**
+- **Mobile technology** for farmers
+- **Satellite monitoring** of crops
+- **Blockchain** for supply chain transparency
 
-# Add other required environment variables
-```
+## 🤝 How You Can Help
 
-5. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Individual Actions
+- **Reduce food waste** at home
+- **Support local farmers** and markets
+- **Choose sustainable food** options
+- **Donate** to food banks and hunger organizations
+- **Educate yourself** about global hunger issues
 
-6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+### Community Involvement
+- **Volunteer** at local food banks
+- **Start community gardens**
+- **Advocate** for policy changes
+- **Support** sustainable agriculture initiatives
+- **Raise awareness** through social media
 
-## 📁 Project Structure
+### Professional Contributions
+- **Invest** in agricultural technology
+- **Support** smallholder farmers
+- **Develop** sustainable food solutions
+- **Research** nutrition and agriculture
+- **Create** food security programs
 
-```
-├── app/                    # Next.js app directory
-│   ├── (auth)/            # Authentication pages
-│   ├── goals/             # SDG-specific pages
-│   ├── progress/          # Progress tracking pages
-│   ├── resources/         # Resource library
-│   ├── actions/           # Server actions
-│   └── api/               # API routes
-├── components/            # Reusable UI components
-│   ├── ui/               # shadcn/ui components
-│   ├── charts/           # Data visualization components
-│   └── forms/            # Form components
-├── lib/                  # Utility functions and configurations
-├── public/               # Static assets
-├── styles/               # Global styles
-└── types/                # TypeScript type definitions
-```
+## 🏢 Key Organizations Working on SDG 2
 
-## 🎯 The 17 SDGs
+### UN Agencies
+- **World Food Programme (WFP)**
+- **Food and Agriculture Organization (FAO)**
+- **International Fund for Agricultural Development (IFAD)**
+- **World Health Organization (WHO)**
 
-1. **No Poverty** - End poverty in all its forms everywhere
-2. **Zero Hunger** - End hunger, achieve food security and improved nutrition
-3. **Good Health and Well-being** - Ensure healthy lives and promote well-being
-4. **Quality Education** - Ensure inclusive and equitable quality education
-5. **Gender Equality** - Achieve gender equality and empower all women and girls
-6. **Clean Water and Sanitation** - Ensure availability and sustainable management of water
-7. **Affordable and Clean Energy** - Ensure access to affordable, reliable, sustainable energy
-8. **Decent Work and Economic Growth** - Promote sustained, inclusive economic growth
-9. **Industry, Innovation and Infrastructure** - Build resilient infrastructure
-10. **Reduced Inequalities** - Reduce inequality within and among countries
-11. **Sustainable Cities and Communities** - Make cities and human settlements inclusive
-12. **Responsible Consumption and Production** - Ensure sustainable consumption patterns
-13. **Climate Action** - Take urgent action to combat climate change
-14. **Life Below Water** - Conserve and sustainably use the oceans, seas and marine resources
-15. **Life on Land** - Protect, restore and promote sustainable use of terrestrial ecosystems
-16. **Peace, Justice and Strong Institutions** - Promote peaceful and inclusive societies
-17. **Partnerships for the Goals** - Strengthen the means of implementation
+### NGOs & Nonprofits
+- **Action Against Hunger**
+- **Oxfam**
+- **World Vision**
+- **Feed the Children**
+- **Heifer International**
 
-## 🤝 Contributing
+### Private Sector
+- **Agricultural companies** developing sustainable solutions
+- **Food retailers** reducing waste
+- **Technology companies** creating farming innovations
+- **Financial institutions** supporting rural development
 
-We welcome contributions from the community! Here's how you can help:
+## 📈 Measuring Progress
 
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and ensure they align with our coding standards
-4. **Test your changes** thoroughly
-5. **Commit your changes**: `git commit -m 'Add some amazing feature'`
-6. **Push to the branch**: `git push origin feature/amazing-feature`
-7. **Open a Pull Request**
+### Key Indicators
+- **Prevalence of undernourishment**
+- **Prevalence of food insecurity**
+- **Child stunting and wasting rates**
+- **Agricultural productivity**
+- **Genetic diversity maintenance**
 
-### Contribution Guidelines
+### Monitoring Tools
+- **Global Hunger Index**
+- **State of Food Security reports**
+- **FAO statistical databases**
+- **National nutrition surveys**
 
-- Follow the existing code style and conventions
-- Write clear, descriptive commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure your code is accessible and follows WCAG guidelines
+## 🌍 Regional Focus Areas
 
-## 📊 Data Sources
+### Sub-Saharan Africa
+- Highest hunger rates globally
+- Climate change impacts
+- Conflict-affected regions
+- Need for agricultural investment
 
-This project uses data from various reputable sources:
+### Asia
+- Largest number of hungry people
+- Rapid urbanization challenges
+- Water scarcity issues
+- Small-scale farmer support needed
 
-- [UN SDG Database](https://unstats.un.org/sdgs/dataportal)
-- [World Bank Open Data](https://data.worldbank.org/)
-- [OECD Data](https://data.oecd.org/)
-- [Our World in Data](https://ourworldindata.org/)
+### Latin America
+- Food insecurity despite production
+- Indigenous population challenges
+- Deforestation concerns
+- Economic inequality impacts
 
-## 🌐 Deployment
+## 💡 Innovation Spotlight
 
-### Deploy to Vercel
+### Emerging Technologies
+- **Vertical farming** in urban areas
+- **Gene editing** for crop improvement
+- **AI-powered** crop monitoring
+- **Blockchain** supply chain tracking
+- **Alternative proteins** development
 
-The easiest way to deploy this Next.js app is to use Vercel:
+### Success Stories
+- **Brazil's Zero Hunger Program**
+- **Rwanda's agricultural transformation**
+- **India's Green Revolution**
+- **China's poverty reduction efforts**
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Configure environment variables in Vercel dashboard
-4. Deploy!
+## 📚 Resources & Further Reading
 
-### Environment Variables for Production
+### Official Documents
+- [UN SDG 2 Official Page](https://sdgs.un.org/goals/goal2)
+- [FAO State of Food Security Report](http://www.fao.org/state-of-food-security-nutrition)
+- [WFP Global Report on Food Crises](https://www.wfp.org/publications/global-report-food-crises-2023)
 
-Make sure to set these environment variables in your production environment:
+### Research & Data
+- [Global Hunger Index](https://www.globalhungerindex.org/)
+- [IFPRI Food Security Portal](http://www.foodsecurityportal.org/)
+- [Our World in Data - Hunger](https://ourworldindata.org/hunger-and-undernourishment)
 
-```env
-DATABASE_URL=your_production_database_url
-NEXTAUTH_SECRET=your_production_secret
-NEXTAUTH_URL=https://your-domain.com
-# Add other production variables
-```
+### Action Platforms
+- [UN World Food Programme](https://www.wfp.org/)
+- [Action Against Hunger](https://www.actionagainsthunger.org/)
+- [Feed the Future](https://www.feedthefuture.gov/)
 
-## 📱 Mobile App
+## 🎯 Call to Action
 
-A companion mobile app is planned for future development to provide:
-- Offline access to SDG information
-- Personal action tracking
-- Push notifications for SDG news
-- Augmented reality features for data visualization
+**Zero Hunger is achievable by 2030**, but it requires urgent action from all sectors of society. Whether you're an individual, organization, or government, there are concrete steps you can take today to contribute to ending hunger and malnutrition worldwide.
 
-## 🔒 Privacy & Security
-
-- We follow GDPR and other privacy regulations
-- User data is encrypted and securely stored
-- Regular security audits are conducted
-- Privacy policy and terms of service are clearly displayed
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- United Nations for the Sustainable Development Goals framework
-- All contributors and supporters of this project
-- Open source community for the amazing tools and libraries
-- Data providers for making SDG data accessible
-
-## 🗺️ Roadmap
-
-- [ ] Multi-language support expansion
-- [ ] Advanced data visualization features
-- [ ] Mobile app development
-- [ ] AI-powered SDG recommendations
-- [ ] Integration with more data sources
-- [ ] Community forum features
-- [ ] Gamification elements
+**Together, we can build a world where everyone has access to sufficient, safe, and nutritious food.**
 
 ---
 
-**Together, we can achieve the SDGs by 2030! 🌍✨**
-
-For more information about the Sustainable Development Goals, visit the [official UN SDG website](https://sdgs.un.org/).
+*Last updated: January 2025*
+*For more information about the Sustainable Development Goals, visit [sdgs.un.org](https://sdgs.un.org/)*
 ```
 
